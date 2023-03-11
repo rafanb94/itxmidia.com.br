@@ -1,0 +1,15 @@
+.btn-cta {
+  text-transform: uppercase;
+  background-color: $primary-80;
+  color: $primary-10;
+  font-weight: bold;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.btn-link {
+  color: $neutral-80;
+  font-weight: 500;
+  &:hover{
+    color: $primary-80;
+  }
+}

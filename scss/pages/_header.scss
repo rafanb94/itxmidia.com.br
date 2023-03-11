@@ -1,0 +1,15 @@
+  .header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+.navbar-toggler {
+  background: $primary-80;
+}
+.nav-link {
+  text-transform: uppercase !important;
+  color:$white;
+}
+.nav-link:hover {
+  color: $primary-80;
+}

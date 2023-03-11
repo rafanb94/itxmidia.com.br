@@ -1,0 +1,57 @@
+.h1, .h1-white {
+  font-size: 4rem;
+}
+.h1-white {
+  color: $white;
+}
+.h1-white span {
+  color: $primary-80;
+}
+.h2, .h2-white {
+  font-size: 2.625rem;
+}
+.h2 {
+  color: $neutral-20;
+}
+.h2-white {
+  color:$white;
+}
+.h2 span, .h2-white span {
+  color:$primary-80;
+  font-weight:bold;
+}
+.h3, .h3-white {
+  font-size:2rem;
+}
+.h3 {
+  color: $neutral-25;
+}
+.h3-white {
+  color: $neutral-95;
+}
+.h4-28 {
+  font-size: 1.75rem;
+  color: $neutral-80;
+}
+.h4 {
+  color: $neutral-25;
+  font-weight:700;
+}
+.p {
+  color: $neutral-40;
+}
+.p-white {
+  color: $neutral-90;
+}
+.p-18 {
+  color: $neutral-10;
+  font-size: 1.125rem;
+}
+.p-18-white {
+  color: $neutral-95;
+  font-size: 1.125rem;
+}
+.number {
+  font-size: 4rem;
+  color: $neutral-95;
+}

@@ -1,0 +1,43 @@
+@import 'utilites/colors';
+
+*,
+*:after,
+*:before {
+  margin:0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none !important;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height:100vh;
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
+  font-family: 'Mulish', sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none !important;
+}
+ol, ul {
+  list-style: none; 
+}
+img, picture, svg, video, iframe {
+  display:block;
+  max-width:100%;
+  height: auto;
+  object-fit: cover;
+}
+input, textarea, button, select {
+  font: inherit;
+}
+@import 'utilites/fontScale';
+@import 'utilites/components';
+@import 'pages/header';
+@import 'pages/home';
+@import 'pages/footer';
