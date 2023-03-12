@@ -90,10 +90,14 @@
   max-width:100%;
   height:3.75rem;
   background-color: $white;
-  padding: 1rem;
+  padding: .5rem;
   display: flex;
   align-items:center;
   gap:1rem;
+  @media (max-width: 575.98px) { 
+    white-space: initial;
+    text-align: initial;
+  }
 }
 
 .bg-contact img{
