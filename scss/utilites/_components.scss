@@ -5,6 +5,10 @@
   font-weight: bold;
   width: -moz-fit-content;
   width: fit-content;
+
+  &:hover {
+    background-color: #f6be31d8;
+  }
 }
 .btn-link {
   color: $neutral-80;

@@ -1,8 +1,17 @@
-  .header {
-    position: absolute;
-    top: 0;
-    width: 100%;
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.navbar  {
+  z-index: 2;
+}
+.navbar-collapse {
+  @media (max-width: 991.98px) { 
+    background-color: $neutral-10;
+    padding-top:1rem;
   }
+}
 .navbar-toggler {
   background: $primary-80;
 }

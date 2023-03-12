@@ -46,6 +46,9 @@
 .p-18 {
   color: $neutral-10;
   font-size: 1.125rem;
+  @media (max-width: 575.98px) { 
+    font-size: 1rem;
+  }
 }
 .p-18-white {
   color: $neutral-95;
@@ -54,4 +57,7 @@
 .number {
   font-size: 4rem;
   color: $neutral-95;
+  @media (max-width: 575.98px) { 
+    font-size: 2rem;
+  }
 }
