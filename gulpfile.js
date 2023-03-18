@@ -52,7 +52,7 @@ gulp.task('pluginsJS', pluginsJS)
 //Browser Watcher
 gulp.task('browser-sync', function () {
 	browserSync.init({
-		proxy: "itxmidiacombr.local",
+		proxy: "itxmidiacombr-1.local",
 	});
 });
 

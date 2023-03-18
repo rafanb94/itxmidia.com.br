@@ -194,15 +194,15 @@
 			<div class="container pt-5">
 				<div class="row">
 					<div class="col-12">
-						<header class="h2 text-center" id="cases">
-							<h2>Nossos últimos cases de <span>sucesso</span></h2>
+						<header id="cases">
+							<h2 class="h2 text-center">Nossos últimos cases de <span>sucesso</span></h2>
 						</header>
 					</div>
 				</div>
-				<swiper-container class="mySwiper mt-5" effect="cards" grab-cursor="true">
+				<swiper-container class="mySwiper mt-5" effect="cards" loop="true" grab-cursor="true" style="overflow:hidden;">
 					<swiper-slide><img src="<?php echo get_template_directory_uri()?>/assets/img/interioresedesign.com.br.jpg" alt=""></swiper-slide>
 					<swiper-slide><img src="<?php echo get_template_directory_uri()?>/assets/img/poloautomotivo.com.br.jpg" alt=""></swiper-slide>
-					<swiper-slide><img src="<?php echo get_template_directory_uri()?>	/assets/img/influtebol.com.br.jpg" alt=""></swiper-slide>
+					<swiper-slide><img src="<?php echo get_template_directory_uri()?>/assets/img/influtebol.com.br.jpg" alt=""></swiper-slide>
 				</swiper-container>
 			</div>
 		</section>
