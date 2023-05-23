@@ -1,0 +1,21 @@
+#pageService {
+  .breadcrumb-item {
+    a {
+      color: $neutral-40;
+    }
+    &.active {
+      color: $primary-80;
+    }
+  }
+  .s-content {
+    ul, li {
+      list-style: initial;
+    }
+    .nav-link {
+      color:$neutral-40;
+      &.active {
+        background-color: $primary-80;
+      }
+    }
+  }
+}

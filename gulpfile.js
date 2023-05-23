@@ -53,6 +53,7 @@ gulp.task('pluginsJS', pluginsJS)
 gulp.task('browser-sync', function () {
 	browserSync.init({
 		proxy: "itxmidiacombr-1.local",
+		port: 5001,
 	});
 });
 

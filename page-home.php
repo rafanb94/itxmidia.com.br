@@ -73,26 +73,36 @@
 								<h3 class="h3">SEO + Marketing de Conteúdo</h3>
 							</header>
 							<p class="p">Esforço técnico, relacionados com a popularidade e conteúdo de um website, para posicioná-lo nas primeiras páginas de resultados orgânicos dos mecanismos de busca como: Google, Yahoo, Bing, entre outros.</p>
+							<a class="seeMore mt-1 py-1" href="<?php echo get_permalink(get_page_by_path("seo search engine optimization"))?>">Saiba Mais</a>
 						</div>
 						<div class="googleAds pt-5">
 							<header>
 								<h3 class="h3">Anúncios no Google</h3>
 							</header>
 							<p class="p">Vamos usufluir da ferramenta mais poderosa do mercado para ajudar o seu site a alcançar mais pessoas no buscador mais usado no mundo.</p>
+							<a class="seeMore mt-1 py-1" href="<?php echo get_permalink(get_page_by_path("anuncios no google"))?>">Saiba Mais</a>
 						</div>
 						<div class="redeSociais pt-5">
 							<header>
 								<h3 class="h3">Redes Sociais</h3>
 							</header>
 							<p class="p">Seja encontrado em qualquer lugar! Você hoje possui um perfil em alguma rede social como o Instagram, Facebook? Hoje mais do que nunca, elas são importantes ferramentas de tráfego. Nós te ajudamos em todo o processo criativo e manutenção das suas redes.</p>
+							<a class="seeMore mt-1 py-1" href="<?php echo get_permalink(get_page_by_path("redes sociais"))?>">Saiba Mais</a>
 						</div>
 					</div>
 					<div class="col-md-5 pt-md-5">
-						<div class="analitycs pt-5">
+						<!-- <div class="analitycs pt-5">
 							<header>
 								<h3 class="h3">Analitycs</h3>
 							</header>
 							<p class="p">De nada adianta se não conhercemos o seu público, fazemos o levatamento e o entendimento de quem é seu público alvo e como faze-lo chegar até você.</p>
+						</div> -->
+						<div class="website pt-5">
+							<header>
+								<h3 class="h3">Não tem um website ou <br>e-commmerce para isso?</h3>
+							</header>
+							<p class="p">Fique tranquilo! Aqui na ITX Mídia, nós também fazemos a criação de sites, tanto sites institucionais para você poder divulgar sua empresa e serviços quanto um E-commerce para divulgar seus produtos.</p>
+							<a class="seeMore mt-1 py-1" href="<?php echo get_permalink(get_page_by_path("websites"))?>">Saiba Mais</a>
 						</div>
 						<div class="traffic-img pt-5">
 							<img src="<?php echo get_template_directory_uri()?>/assets/img/solicitar-orcamento.jpg" alt="">
